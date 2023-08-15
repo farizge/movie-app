@@ -1,17 +1,7 @@
-import SearchBar from "./SearchBar";
-
 function Navbar() {
     return (
-        <nav>
-            <h1 className="bg-primary">LOGO</h1>
-            <ul>
-                <li>New Release</li>
-                <li>Trending</li>
-                <li>Movies</li>
-                <li>TV Series</li>
-                <li>Discover</li>
-            </ul>
-            <SearchBar />
+        <nav className="mx-16 flex w-full px-5 py-10 bg-primary">
+            <h1 className="">LOGO</h1>
         </nav>
     );
 }

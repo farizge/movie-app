@@ -3,7 +3,7 @@ function SearchBar() {
         <input
             type="text"
             placeholder="Search Movies"
-            className="input-ghost input input-sm"
+            className="input-primary input input-md w-full rounded-full"
         />
     );
 }
