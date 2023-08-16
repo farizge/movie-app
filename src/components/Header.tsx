@@ -6,7 +6,7 @@ function Header() {
             <h1 className="text-xl font-bold ">
                 Find Movies, TV Series, and More
             </h1>
-            <SearchBar />
+            <SearchBar home />
         </header>
     );
 }

@@ -17,15 +17,3 @@ export const useGetMovie = (param: Category) => {
         queryKey: ["moviesData", param],
     });
 };
-
-// export const useFetchProducts = ({ onError }) => {
-//     return useQuery({
-//       queryFn: async () => {
-//         const productsResponse = await axiosInstance.get("/products");
-
-//         return productsResponse;
-//       },
-//       queryKey: ["fetch.products"],
-//       onError,
-//     });
-//   };
