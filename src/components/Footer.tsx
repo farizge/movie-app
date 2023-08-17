@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
-        <footer className=" flex gap-8 items-center justify-center flex-row h-[10vh] w-full mt-8 bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20">
+        <footer className=" flex lg:gap-8 gap-4 items-center justify-center flex-row h-[10vh] w-full mt-8 bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20">
             <Logo />
             <p>
                 Coded by <span className="text-accent">Fariz Ghani</span>
