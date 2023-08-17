@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+Movie App
+This is a React application that allows users to search for and view information about movies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Search for movies by title
+View details about a movie including title, release date, overview, genres, runtime, rating
+Responsive design for mobile and desktop
 
-Currently, two official plugins are available:
+Add Features
+View list of popular movies, upcoming movies, now playing movies, top rated movies (Home Page)
+View List of Similar movies based on movie detail with horizontal scrolling for better UX
+Horizontal scrolling for movie lists on home page for better browsing experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+UI
+Modern Style dark theme with gradient colors accent
 
-## Expanding the ESLint configuration
+Technologies Used
+React
+TypeScript
+Vite
+Jest for testing
+React Query for data fetching
+React Router for routing
+TailwindCSS & DaisyUI for styling
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+API
+The app uses the TMDB API to fetch movie data
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Testing
