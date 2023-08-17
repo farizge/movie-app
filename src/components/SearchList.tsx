@@ -7,6 +7,7 @@ type Movie = {
     vote_average: number;
 };
 
+//render search movie result from searchResult Data queryKey:"search"
 function SearchList({ searchResult }: { searchResult: Movie[] }) {
     return (
         <section className="lg:px-4 md:px-2 h-full w-full mb-4">

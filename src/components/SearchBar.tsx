@@ -1,5 +1,5 @@
-import { FiSearch } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
+import { LuSearch } from "react-icons/lu";
 
 type Search = {
     handleSearch?: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -14,8 +14,8 @@ function SearchBar({ handleSearch, terms, home }: Search) {
             className="relative max-w-xl w-full cursor-pointer"
             onClick={() => home && navigate("/search-movie")}
         >
-            <span className="absolute inset-y-0 left-0 flex items-center pl-3 z-50 font-medium text-lg">
-                <FiSearch />
+            <span className="absolute inset-y-0 left-0 flex items-center pl-3 z-50 text-xl">
+                <LuSearch />
             </span>
             <input
                 type="search"

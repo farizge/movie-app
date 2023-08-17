@@ -1,6 +1,7 @@
-import { FaStar } from "react-icons/fa";
 import altImage from "../assets/img-na.jpg";
 import { Link } from "react-router-dom";
+import { FaStar } from "react-icons/fa";
+
 function Movie({
     movie_id,
     title,
@@ -29,7 +30,7 @@ function Movie({
                 </h2>
                 <div className="flex justify-between mx-2">
                     <p>2022</p>
-                    <p className="flex-none badge badge-grey-800 font-semibold border-2 text-warning z-50 ">
+                    <p className="badge badge-grey-800 font-semibold text-warning z-50 ">
                         <span className="mr-1">
                             <FaStar />
                         </span>

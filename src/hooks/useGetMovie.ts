@@ -9,12 +9,15 @@ export type Category =
     | "upcoming"
     | "now_playing"
     | "top_rated"
-    | string;
+    | string; //this is for dynamic value of movie_id,
 
+//it is a custom hook to fetch data from api, take "param" argument to add the specific URL, so it's reusable
 export const useGetMovie = (param: Category) => {
     return useQuery({
         queryFn: async () => {
+            //make get request
             const response = await axios.get(
+                //API URL
                 `${baseUrl}/movie/${param}?api_key=${apiKey}`
             );
             return response.data.results;

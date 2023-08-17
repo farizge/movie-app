@@ -15,9 +15,11 @@ function SearchPage() {
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearch(e.target.value);
     };
+    // useDebounce is custom hooks to delay fetching data
     const debounceSearch = useDebounce(search, 500);
-
+    // Fetch data by query received from input
     const { data, isLoading } = useQuery({
+        //caching the data with this key and use it to render the search result
         queryKey: ["search", debounceSearch],
         queryFn: async () => {
             const response = await axios.get(
@@ -31,7 +33,7 @@ function SearchPage() {
         <main className="flex flex-col items-center gap-8 mx-4 my-10">
             <SearchBar handleSearch={handleSearch} terms={search} />
             {isLoading ? (
-                <div className="mt-[10rem]">
+                <div className="my-[10rem]">
                     <Loader />
                 </div>
             ) : (
