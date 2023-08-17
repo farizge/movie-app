@@ -17,7 +17,7 @@ function SearchPage() {
     };
     // useDebounce is custom hooks to delay fetching data
     const debounceSearch = useDebounce(search, 500);
-    // Fetch data by query received from input
+    // Fetch data by query received from search input
     const { data, isLoading } = useQuery({
         //caching the data with this key and use it to render the search result
         queryKey: ["search", debounceSearch],

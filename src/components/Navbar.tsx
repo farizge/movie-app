@@ -7,6 +7,7 @@ function Navbar() {
 
     return (
         <nav className="cursor-default flex items-center justify-center p-4 w-full ">
+            {/* when at home hide back button  */}
             {pathname !== "/" && (
                 <Link to="/">
                     <div className="absolute left-8 top-5 flex items-center justify-center bg-gray-300 rounded-full bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 p-2 hover:text-accent">
