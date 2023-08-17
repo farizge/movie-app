@@ -16,6 +16,7 @@ function SearchList({ searchResult }: { searchResult: Movie[] }) {
                     return (
                         <Movie
                             key={id}
+                            movie_id={id}
                             title={title}
                             poster={poster_path}
                             star={vote_average}

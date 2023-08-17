@@ -1,7 +1,12 @@
+import { NavLink } from "react-router-dom";
+import Logo from "./Logo";
+
 function Navbar() {
     return (
-        <nav className="mx-16 flex w-full px-5 py-10 bg-primary">
-            <h1 className="">LOGO</h1>
+        <nav className="grid place-items-center py-4 w-full ">
+            <NavLink to="/">
+                <Logo />
+            </NavLink>
         </nav>
     );
 }

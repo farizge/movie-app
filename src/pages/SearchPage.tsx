@@ -31,7 +31,7 @@ function SearchPage() {
         <main className="flex flex-col items-center gap-8 mx-4 my-10">
             <SearchBar handleSearch={handleSearch} terms={search} />
             {isLoading ? (
-                <div className="mt-[30%]">
+                <div className="mt-[10rem]">
                     <Loader />
                 </div>
             ) : (

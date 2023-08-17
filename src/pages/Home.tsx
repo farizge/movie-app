@@ -3,12 +3,12 @@ import MovieList from "../components/MovieList";
 
 function Home() {
     return (
-        <main className="flex flex-col items-center gap-8 mx-4 my-10">
+        <main className="flex flex-col items-center gap-8 mx-4 my-4">
             <Header />
-            <MovieList category="popular" />
-            <MovieList category="upcoming" />
-            <MovieList category="now_playing" />
-            <MovieList category="top_rated" />
+            <MovieList category="popular" titleCategory="Popular" />
+            <MovieList category="upcoming" titleCategory="Upcoming" />
+            <MovieList category="now_playing" titleCategory="Now Playing" />
+            <MovieList category="top_rated" titleCategory="Top Rated" />
         </main>
     );
 }

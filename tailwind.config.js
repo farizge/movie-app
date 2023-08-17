@@ -5,8 +5,6 @@ export default {
         fontFamily: {
             sans: ["Lato", "sans-serif"],
         },
-
-        extend: {},
     },
     plugins: [require("@tailwindcss/typography"), require("daisyui")],
     daisyui: {
