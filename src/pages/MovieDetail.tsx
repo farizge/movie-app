@@ -18,7 +18,7 @@ function MovieDetail() {
 
     return (
         <main className="m-4">
-            <div className="cursor-default mb-8 gap-8 lg:gap-0 p-4 flex flex-col lg:flex-row lg:items-center bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20">
+            <div className="cursor-default mb-8 gap-8 md:gap-4 lg:gap-4 p-4 flex flex-col lg:flex-row lg:items-center bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20">
                 <div className="w-full lg:w-1/2 grid">
                     {/* show loader first before image */}
                     {isLoading ? (
