@@ -10,6 +10,14 @@ This is a React application that allows users to search for and view information
 
 [![screely-1692294999327.png](https://i.postimg.cc/ydZMdS9D/screely-1692294999327.png)](https://postimg.cc/hzKyZv2n)
 
+### Search Page
+
+[![screely-1692320222073.png](https://i.postimg.cc/L5qnhDDz/screely-1692320222073.png)](https://postimg.cc/8fS10hq5)
+
+### Detail Page
+
+[![screely-1692320335609.png](https://i.postimg.cc/QCRV77Yv/screely-1692320335609.png)](https://postimg.cc/V0WYQJ8F)
+
 ## Features
 
 -   Search for movies by title
