@@ -6,7 +6,10 @@ function Navbar() {
     const { pathname } = useLocation();
 
     return (
-        <nav className="cursor-default flex items-center justify-center p-4 w-full ">
+        <nav
+            className="cursor-default flex items-center justify-center p-4 w-full"
+            data-testid="navigation"
+        >
             {/* when at home hide back button  */}
             {pathname !== "/" && (
                 <Link to="/">
