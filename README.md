@@ -8,7 +8,7 @@ This is a React application that allows users to search for and view information
 
 ### Homepage
 
-![App Screenshot](https://i.ibb.co/0nGfKks/screely-1692294999327.png)
+[![screely-1692294999327.png](https://i.postimg.cc/ydZMdS9D/screely-1692294999327.png)](https://postimg.cc/hzKyZv2n)
 
 ## Features
 
